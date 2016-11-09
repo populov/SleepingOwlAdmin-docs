@@ -2,7 +2,7 @@
 
 Используются для построения форм.
 
-На текущий момент существую следующие виды форм:
+На текущий момент существуют следующие виды форм:
  - `AdminForm::form()`
  - `AdminForm::panel()` - в основе которой лежит [Bootstrap конпонент `panel`](http://getbootstrap.com/components/#panels)
  - `AdminForm::tabbed()` - для группировки элементов формы в табы
@@ -11,7 +11,7 @@
  * Класс `\SleepingOwl\Admin\Form\FormDefault`
  * View `resources\views\default\form\default.blade.php`
 
-Данный тип формы выводит элементы без дизайна. При желании внешний вид формы можно настроит с помощью HTML атрибутов
+Данный тип формы выводит элементы без дизайна. При желании внешний вид формы можно настроить с помощью HTML атрибутов
 
 ```php
 $form = AdminForm::form()->setElements([
